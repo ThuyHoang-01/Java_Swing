@@ -27,7 +27,7 @@ public class CongTruNhanChia extends JFrame implements ActionListener {
 	JLabel lbTitle, lbNhapA, lbNhapB, lbKQ;
 	JTextField txtNhapA, txtNhapB, txtKQ;
 	JRadioButton radCong, radTru, radNhan, radChia;
-	JButton btnGiai, btnXoa, btnThoat;
+	JButton btnGiai, btnXoa, btnThoat , btnXanh , btnDo , btnVang ;
 
 	public void addControls() { // de cho cac lop thong nhat {
 		// NORTH 
@@ -35,6 +35,7 @@ public class CongTruNhanChia extends JFrame implements ActionListener {
 	// button là nút 
 	//  setedit
 	// setdimntion
+		int height = 30 ;
 		JPanel pNor = new JPanel();
 		pNor.add(lbTitle = new JLabel(" Cộng Trừ Nhân Chia "));
 		Font f = new Font("Time new Roman", Font.BOLD,18);
@@ -93,11 +94,21 @@ public class CongTruNhanChia extends JFrame implements ActionListener {
 		
 		//SOU
 		JPanel pSou = new JPanel();
+		pSou.add(btnXanh = new JButton());
+		btnXanh.setBackground(Color.blue);
+		btnXanh.setBounds(50, 50, 55,height);
+		pSou.add(btnDo = new JButton());
+		btnDo.setBounds(50, 50, 55,height);
+		btnDo.setBackground(Color.red);
+		pSou.add(btnVang = new JButton());
+		btnVang.setBackground(Color.yellow);
+		btnVang.setBounds(50, 50, 55,height);
+		
 		pSou.setBackground(Color.pink);
 		add(pSou,BorderLayout.SOUTH);
 		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setBounds(300, 300, 400, 300);
+		setBounds(400, 300, 400, 300);
 		setVisible(true);
 		setResizable(false);
 
@@ -110,8 +121,8 @@ public class CongTruNhanChia extends JFrame implements ActionListener {
 	public CongTruNhanChia() {
 		super("Cộng - Trừ - Nhân - Chia");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setBounds(100, 100, 400, 400);
-		setVisible(true);
+		setBounds(300, 100, 400, 400);
+		setVisible(false);
 		addControls();
 		setResizable(false);
 	}
@@ -123,10 +134,10 @@ public class CongTruNhanChia extends JFrame implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		int a = 0, b = 0;
-		String sA, sB;
-		sA = txtNhapA.getText();// lay gia tri nhap trong text
-		sB = txtNhapB.getText();
+		int a ,b;
+		a = Integer.parseInt(txtNhapA.getText());
+		b = Integer.parseInt(txtNhapB.getText());
+
 			Object source = e.getSource();
 			if (source.equals(btnGiai)) {
 				if (radCong.isSelected()) {// ?
@@ -145,7 +156,7 @@ public class CongTruNhanChia extends JFrame implements ActionListener {
 				txtNhapB.setText("");
 			}
 
-			else if (source.equals(btnThoat)) {
+			else  {
 				System.exit(0);
 				}
 			}
