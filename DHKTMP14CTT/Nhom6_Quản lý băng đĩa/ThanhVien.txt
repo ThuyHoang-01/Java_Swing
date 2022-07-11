@@ -1,4 +1,0 @@
-CMND;TenTV;GioiTinh;SDT;DiaChi
-072200007453;36/14A;Nam;Phát;0999777666
-3;;Nam;;2
-0000;Toan;Nam;9999;adnj

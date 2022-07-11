@@ -1,2 +1,0 @@
-MaBD;TenBD;TheLoai;HangSX;TinhTrang;GhiChu;Gia
-ttv;hg;hh;bb;Mới;bb;60000.0;1

@@ -1,3 +1,0 @@
-MaSach;TuaSach;TacGia;NamXuatBan;NhaXuatBan;SoTrang;DonGia;ISBN
-A01;ưdasds;sada;123;ưqwd;12;6666.0;1212
-A03;4asd;asd;12;ss;12;1222.0;as1

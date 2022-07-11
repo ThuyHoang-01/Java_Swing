@@ -1,3 +1,0 @@
-MaBD;TenBD;TheLoai;HangSX;TinhTrang;GhiChu;Gia
-MTP;Em của ngày hôm qua;Âm nhạc;MTP-Entertainment;Mới;Sky;50000.0;3
-ttv;hg;hh;bb;Mới;bb;60000.0;7
