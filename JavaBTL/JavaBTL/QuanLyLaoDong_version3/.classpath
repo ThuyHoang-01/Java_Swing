@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="QuanLyLaoDong_version3/src"/>
+	<classpathentry kind="lib" path="QuanLyLaoDong_version3/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="QuanLyLaoDong_version3/lib/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="QuanLyLaoDong_version3/lib/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="QuanLyLaoDong_version3/lib/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="QuanLyLaoDong_version3/lib/sqljdbc42.jar"/>
+	<classpathentry kind="output" path="QuanLyLaoDong_version3/bin"/>
+</classpath>

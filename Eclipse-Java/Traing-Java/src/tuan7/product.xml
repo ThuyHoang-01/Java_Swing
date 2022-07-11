@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<productList>
+        	
+    
+    <product id="TV1025">
+                		
+        
+        <name>TV Led</name>
+                		
+        
+        <manufacture>Sony</manufacture>
+                		
+        
+        <description>TV led voi cong nghe</description>
+                		
+        
+        <supplier>
+                        			
+            
+            <name>Thiên Hòa</name>
+                        			
+            
+            <country>Việt Nam</country>
+                        			
+            
+            <website>www.thienhoa.com</website>
+                        		
+        
+        </supplier>
+                		
+        
+        <price>500.0</price>
+                	
+    
+    </product>
+        	
+    
+    <product id="Phone1002">
+                		
+        
+        <name>DT NOKIA lumia 630</name>
+                		
+        
+        <manufacture>nokia</manufacture>
+                		
+        
+        <description>Điện thoại cảm ứng</description>
+                		
+        
+        <supplier>
+                        			
+            
+            <name>FBT</name>
+                        			
+            
+            <country>Việt Nam</country>
+                        			
+            
+            <website>www.fbt.com</website>
+                        		
+        
+        </supplier>
+                		
+        
+        <price>800.0</price>
+                	
+    
+    </product>
+        	
+    
+    <product id="IPhone5S">
+                		
+        
+        <name>Điện thoại IPhne 5S</name>
+                		
+        
+        <manufacture>Apple</manufacture>
+                		
+        
+        <description>Điện thoại cảm ứng</description>
+                		
+        
+        <supplier>
+                        			
+            
+            <name>Thế giới di động</name>
+                        			
+            
+            <country>Việt Nam</country>
+                        			
+            
+            <website>www.diDong.com</website>
+                        		
+        
+        </supplier>
+                		
+        
+        <price>1200.0</price>
+                	
+    
+    </product>
+        	
+    
+    
+
+</productList>

@@ -1,0 +1,28 @@
+package tuan7;
+
+import java.awt.BorderLayout;
+
+import javax.swing.Box;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.plaf.basic.BasicTabbedPaneUI;
+
+public class Gui extends JFrame{
+	
+	public Gui() {
+		//Frame
+		this.setTitle("-.-");
+		this.setSize(500,500);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
+		//Layout
+		Box b = Box.createVerticalBox();
+		JLabel labelTitle = new JLabel("THONG TIN SAN PHAM");
+		b.add(labelTitle);
+		this.add(b,BorderLayout.NORTH);
+	}
+	public static void main(String[] args) {
+		new Gui().setVisible(true);
+	}
+
+}

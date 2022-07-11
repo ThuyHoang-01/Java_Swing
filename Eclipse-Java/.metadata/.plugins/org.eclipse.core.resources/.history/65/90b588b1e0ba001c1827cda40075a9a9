@@ -1,0 +1,52 @@
+package tuan7;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+public class ManageProduct {
+
+	private static String fileName = "product.xml";
+	private DocumentBuilderFactory factory;
+	private DocumentBuilder builder;
+	private Document document;
+
+	public ManageProduct() {
+		try {
+			factory = DocumentBuilderFactory.newInstance();
+			builder = factory.newDocumentBuilder();
+			document = builder.parse(fileName);
+		} catch (ParserConfigurationException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} catch (SAXException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+	
+	public ArrayList<Product> getAllProduct(){
+		ArrayList<Product> list = new ArrayList<Product>();
+		Element root = document.getDocumentElement();
+		NodeList pList = root.getElementsByTagName("product");
+		int pCount = pList.getLength();
+		for(int i=0;i<pCount;i++) {
+			Element pNode = (Element) pList.item(i);
+			String productID = pNode.getAttribute("id");
+			String name = pNode.getElementsByTagName("name").item(0).getTextContent();
+		}
+		return list;
+	}
+
+}

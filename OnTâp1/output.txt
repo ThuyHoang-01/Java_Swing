@@ -1,0 +1,2 @@
+NhanVien [MaNV=1, HoNV=Trần, TenNV=Nhứt, PhongBan=Phong To Chuc, TienLuong=4500.0]
+NhanVien [MaNV=2, HoNV=Hoàng, TenNV=Thùy, PhongBan=Phong Ky Thuat, TienLuong=5500.0]

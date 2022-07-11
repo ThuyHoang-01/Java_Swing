@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product id="001">
+		<name>Hai lúa</name>
+		<manufacture>Việt Nam</manufacture>
+		<description>Khong co gi</description>		
+		<suplier>
+			<name>"bột giặt OMO"</name>
+			<country>Unilever</country>
+			<website>hailua.com</website>
+		</suplier>
+		<unitbaseprice>100</unitbaseprice>
+	</product>
+	<product id="002">
+		<name>aaa</name>
+		<manufacture>aaa</manufacture>
+		<description>aaa</description>		
+		<suplier>
+			<name>aaa</name>
+			<country>aaa</country>
+			<website>aaa</website>
+		</suplier>
+		<unitbaseprice>1000</unitbaseprice>
+	</product>
+
+</products>

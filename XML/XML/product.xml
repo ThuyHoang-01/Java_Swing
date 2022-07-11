@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<productList>
+	<product id="TV1025">
+		<name>TV Led</name>
+		<manufacture>Sony</manufacture>
+		<description>TV led voi cong nghe</description>
+		<supplier>
+			<name>Thiên Hòa</name>
+			<country>Việt Nam</country>
+			<website>www.thienhoa.com</website>
+		</supplier>
+		<price>500.0</price>
+	</product>
+	<product id="IPhone5S">
+		<name>Điện thoại IPhne 5S</name>
+		<manufacture>Apple</manufacture>
+		<description>Điện thoại cảm ứng</description>
+		<supplier>
+			<name>Thế giới di động</name>
+			<country>Việt Nam</country>
+			<website>www.diDong.com</website>
+		</supplier>
+		<price>1200.0</price>
+	</product>
+	<product id="123456">
+		<name>rice</name>
+		<manufacture>cuu long</manufacture>
+		<description>thom ngon</description>
+		<supplier>
+			<name>cuu long</name>
+			<country>viet nam</country>
+			<website>cuulong.com</website>
+		</supplier>
+		<price>30000.0</price>
+	</product>
+
+</productList>
